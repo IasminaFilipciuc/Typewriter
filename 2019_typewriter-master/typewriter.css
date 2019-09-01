@@ -1,0 +1,28 @@
+.typewritten {
+  font-family: "Special Elite", cursive;
+  text-align: center;
+  margin-top: 25%;
+  color: dimgray;
+  font-size: 260%;
+  border-right: solid orange 5px;
+  display: inline-block;
+  animation: blink-caret 0.5s step-end infinite;
+  letter-spacing: 0.13em;
+  margin-left: 7%;
+}
+
+body {
+  background-image: url("bg1.jpg");
+  background-repeat: repeat;
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: burlywood
+    }
